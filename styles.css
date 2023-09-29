@@ -1,0 +1,161 @@
+
+body{
+    background: #0f172a;
+    
+}
+
+h1, h2, h5 {
+    color: #f7faff;
+}
+
+
+.card-title{
+    color: #f7faff;
+}
+.hello-world{
+    background: linear-gradient(to right, crimson, #01A5F8, #01BFD8);
+    background-size: 200% 200%;
+    animation: gradient 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: color 1s ease-in-out;
+}
+
+.hello-world:hover{
+    color: rgba(0, 0, 0, 0);
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.resume{
+    text-decoration: none;
+    color: #9AA3B8;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.resume:hover{
+    color: #f7faff;
+}
+p{
+    /* color: #A1ADC9; */
+    color: #9AA3B8;
+    font-size: small;
+    
+}
+
+.header-name{
+    padding-top: 7rem;
+}
+#about{
+    padding-top: 8rem;
+}
+#experience{
+    padding-top: 7rem;
+}
+.main-container{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    width: 1250px;
+}
+
+.active{
+    color: #f7faff;
+    
+}
+
+#navbar{
+    color: #7e8697;
+}
+
+
+#email-link{
+    color: #7e8697;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#email-link:hover{
+    color: #f7faff;
+}
+.card{
+    background: rgba(57,82,115,0.05);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(57,82,115,0.025);
+    transition: filter 1s ease, opacity 1s ease;
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .header-name{
+        padding-top: 0;
+    }
+    .main{
+        padding-top: 0;
+    }
+    nav{
+        display: none;
+    }
+    .main-container{
+        padding-left: 0;
+        padding-right: 0;
+        width: inherit;
+
+    }
+    #about{
+        padding-top: 0;
+    }
+    #experience{
+        padding-top: 0;
+    }
+        
+}
+
+#projects:hover .card{
+    filter: blur(20px);
+    opacity: 0.5;
+    transition: filter 1s ease, opacity 1s ease;
+}
+
+
+#projects .card:hover{
+    filter: blur(0px);
+    background: rgba(255,255,255,0.15);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    border: 1px solid rgba(255,255,255,0.075);
+    transition: color 1s ease, background-color 1s ease;
+    opacity: 1;
+}
+#experience:hover .card{
+    filter: blur(20px);
+    opacity: 0.5;
+    transition: color 1s ease, background-color 1s ease;
+}
+
+#experience .card:hover{
+    filter: blur(0px);
+    background: rgba(255,255,255,0.15);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    border: 1px solid rgba(255,255,255,0.075);
+    transition: background-color 1s ease;
+    opacity: 1;
+}
+.btn{
+    color:#9AA3B8;
+    transition: color 1s ease;
+}
+
+.btn:hover{
+    color: #f7faff;
+    transition: color 1s ease;
+}
