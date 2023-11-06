@@ -13,6 +13,7 @@ h1, h2, h5 {
     color: #f7faff;
 }
 .hello-world{
+    color: rgba(0, 0, 0, 0);
     background: linear-gradient(to right, crimson, #01A5F8, #01BFD8);
     background-size: 200% 200%;
     animation: gradient 2s ease-in-out infinite;
@@ -22,7 +23,7 @@ h1, h2, h5 {
 }
 
 .hello-world:hover{
-    color: rgba(0, 0, 0, 0);
+    color: #f7faff;
 }
 @keyframes gradient {
 	0% {
