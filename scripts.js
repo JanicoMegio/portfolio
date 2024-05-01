@@ -15,11 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     }
-
     // Listen for scroll events
     window.addEventListener("scroll", toggleButtonColors);
 });
-
-
-
-
